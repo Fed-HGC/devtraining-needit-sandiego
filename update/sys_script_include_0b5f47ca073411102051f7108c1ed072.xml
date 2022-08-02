@@ -19,7 +19,7 @@ isDatePast: function(strDate){
     var testdate = new GlideDateTime(strDate);
     
     // If the testdate is before rightnow, return true, else return false
-    if (testdate.before(rightnow)) {
+    if (testdate.onOrBefore(rightnow)) {
       return true;
     }
     else {
@@ -32,13 +32,13 @@ isDatePast: function(strDate){
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-07-21 18:56:07</sys_created_on>
         <sys_id>0b5f47ca073411102051f7108c1ed072</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name>NeedItUtils</sys_name>
         <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
         <sys_policy>read</sys_policy>
         <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
         <sys_update_name>sys_script_include_0b5f47ca073411102051f7108c1ed072</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-07-21 18:56:07</sys_updated_on>
+        <sys_updated_on>2022-08-02 15:02:11</sys_updated_on>
     </sys_script_include>
 </record_update>
